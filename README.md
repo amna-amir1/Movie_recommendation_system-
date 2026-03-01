@@ -85,7 +85,7 @@ This confirms the dataset is highly sparse, which is typical in recommender syst
 **⚙️ Models Implemented**
 
 
-**Step 1 : User Based Collaborative Filtering **
+- Step 1 : User Based Collaborative Filtering
 
 Cosine similarity computed between users
 
@@ -103,7 +103,7 @@ Recall@10: 0.220
 
 F1@10: 0.205
 
-** Step 2: Item-Based Collaborative Filtering**
+- Step 2: Item-Based Collaborative Filtering
 
 Cosine similarity computed between items
 
@@ -111,7 +111,7 @@ For each user, top-K similar items recommended
 
 Evaluation performed using Precision@10, Recall@10, F1@10
 
-**📊 Results**
+📊 Results
 
 Precision@10: 0.282
 
@@ -119,7 +119,7 @@ Recall@10: 0.220
 
 F1@10: 0.204
 
-** Step 3: Item-Based CF + SVD**
+- Step 3: Item-Based CF + SVD
 
 In this step:
 
@@ -138,7 +138,7 @@ Evaluated using same metrics (Precision@10)
 Purpose:
 To reduce sparsity effect and capture latent relationships between items.
 
-**📊 Results**
+📊 Results
 
 Precision@10: 0.331
 
