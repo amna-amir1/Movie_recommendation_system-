@@ -83,7 +83,25 @@ Observed sparsity ≈ 89%
 This confirms the dataset is highly sparse, which is typical in recommender systems.
 
 **⚙️ Models Implemented**
- Step 1: Item-Based Collaborative Filtering
+
+
+**Step 1 : User Based Collaborative Filtering **
+
+Cosine similarity computed between users
+
+For each user, top-K similar users identified
+
+Weighted ratings from similar users used to generate recommendations
+
+Evaluation performed using Precision@10, Recall@10, F1@10
+
+📊 Results
+
+Precision@10: 0.282
+Recall@10: 0.220
+F1@10: 0.205
+
+** Step 2: Item-Based Collaborative Filtering**
 
 Cosine similarity computed between items
 
@@ -97,7 +115,7 @@ Precision@10: 0.282
 Recall@10: 0.220
 F1@10: 0.204
 
- Step 2: Item-Based CF + SVD
+** Step 3: Item-Based CF + SVD**
 
 In this step:
 
@@ -124,10 +142,11 @@ F1@10: 0.233
 
 **📈 Performance Comparison**
 
-| Model            | Precision@10 | Recall@10 | F1@10 |
-| ---------------- | ------------ | --------- | ----- |
-| Item-Based CF    | 0.282        | 0.220     | 0.204 |
-| Item-Based + SVD | 0.331        | 0.234     | 0.233 |
+| Model               | Precision@10 | Recall@10 | F1@10  |
+| ------------------- | ------------ | --------- | ------ |
+| User-Based CF       | 0.2822       | 0.2203    | 0.2048 |
+| Item-Based CF       | 0.2822       | 0.2203    | 0.2048 |
+| Item-Based CF + SVD | 0.3306       | 0.2338    | 0.2326 |
 
 
 **📊 Observations**
