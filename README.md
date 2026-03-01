@@ -1,5 +1,7 @@
-🎬 Movie Recommendation System
+#🎬 Movie Recommendation System
+
 User-Based, Item-Based & Item-Based + SVD Comparison
+
 📌 Project Description
 
 This project implements and compares multiple Collaborative Filtering approaches on the MovieLens dataset:
@@ -12,7 +14,7 @@ Item-Based Collaborative Filtering + SVD
 
 The goal was to evaluate whether applying SVD (Singular Value Decomposition) on the item-based approach improves recommendation performance.
 
-📂 Dataset
+#📂 Dataset
 
 This project uses the MovieLens 100K dataset provided by:
 
@@ -30,11 +32,11 @@ Rating scale: 1–5
 
 Highly sparse (~89%)
 
-🔍 Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
 The following checks were performed before modeling:
 
-✅ Missing Values
+- Missing Values
 
 Verified null values
 
@@ -42,13 +44,13 @@ Filled missing release dates
 
 Dropped irrelevant columns
 
-✅ Rating Distribution
+- Rating Distribution
 
 Ratings between 2.5–5 were dominant
 
 Dataset not perfectly normally distributed
 
-✅ Ratings per User
+- Ratings per User
 
 Few users gave many ratings
 
@@ -56,19 +58,19 @@ Majority gave fewer ratings
 
 Long-tail behavior observed
 
-✅ Ratings per Movie
+- Ratings per Movie
 
 Few popular movies received many ratings
 
 Many movies had very few ratings
 
-✅ Genre Distribution
+- Genre Distribution
 
 Some genres dominant
 
 “Unknown” genre had zero entries
 
-✅ Sparsity Check
+- Sparsity Check
 
 User-Item matrix created using pivot table.
 
