@@ -177,7 +177,7 @@ Precision, Recall, and F1 computed
 
 Final results averaged across all users
 
-** Key Insights**
+**🚀 Key Insights**
 
 Item-Based CF works well for sparse datasets.
 
@@ -187,7 +187,7 @@ Precision improved from 0.282 → 0.331 after SVD.
 
 Latent factor modeling enhances item similarity learning.
 
-** Technologies Used**
+**🛠 Technologies Used**
 
 Python
 
