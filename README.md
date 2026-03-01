@@ -1,4 +1,4 @@
-#🎬 Movie Recommendation System
+**🎬 Movie Recommendation System**
 
 User-Based, Item-Based & Item-Based + SVD Comparison
 
@@ -14,7 +14,7 @@ Item-Based Collaborative Filtering + SVD
 
 The goal was to evaluate whether applying SVD (Singular Value Decomposition) on the item-based approach improves recommendation performance.
 
-#📂 Dataset
+**📂 Dataset**
 
 This project uses the MovieLens 100K dataset provided by:
 
@@ -82,8 +82,8 @@ Observed sparsity ≈ 89%
 
 This confirms the dataset is highly sparse, which is typical in recommender systems.
 
-⚙️ Models Implemented
-🔵 Step 1: Item-Based Collaborative Filtering
+**⚙️ Models Implemented**
+ Step 1: Item-Based Collaborative Filtering
 
 Cosine similarity computed between items
 
@@ -91,13 +91,13 @@ For each user, top-K similar items recommended
 
 Evaluation performed using Precision@10, Recall@10, F1@10
 
-📊 Results
+**📊 Results**
 
 Precision@10: 0.282
 Recall@10: 0.220
 F1@10: 0.204
 
-🔵 Step 2: Item-Based CF + SVD
+ Step 2: Item-Based CF + SVD
 
 In this step:
 
@@ -116,13 +116,13 @@ Evaluated using same metrics (Precision@10)
 Purpose:
 To reduce sparsity effect and capture latent relationships between items.
 
-📊 Results
+**📊 Results**
 
 Precision@10: 0.331
 Recall@10: 0.234
 F1@10: 0.233
 
-📈 Performance Comparison
+**📈 Performance Comparison**
 
 | Model            | Precision@10 | Recall@10 | F1@10 |
 | ---------------- | ------------ | --------- | ----- |
@@ -130,7 +130,7 @@ F1@10: 0.233
 | Item-Based + SVD | 0.331        | 0.234     | 0.233 |
 
 
-📊 Observations
+**📊 Observations**
 
 Applying SVD improved Precision and F1-score.
 
@@ -140,7 +140,7 @@ SVD helped capture hidden item relationships.
 
 Sparsity remained high but latent factor modeling reduced its negative impact.
 
-🔎 Evaluation Method
+**🔎 Evaluation Method**
 
 Evaluation was done per user:
 
@@ -152,7 +152,7 @@ Precision, Recall, and F1 computed
 
 Final results averaged across all users
 
-🚀 Key Insights
+** Key Insights**
 
 Item-Based CF works well for sparse datasets.
 
@@ -162,7 +162,7 @@ Precision improved from 0.282 → 0.331 after SVD.
 
 Latent factor modeling enhances item similarity learning.
 
-🛠 Technologies Used
+** Technologies Used**
 
 Python
 
@@ -174,7 +174,7 @@ Scikit-learn
 
 Cosine Similarity
 
-📌 Conclusion
+**📌 Conclusion**
 
 This project demonstrates that combining Item-Based Collaborative Filtering with SVD improves recommendation performance in sparse datasets.
 
