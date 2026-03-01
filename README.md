@@ -98,7 +98,9 @@ Evaluation performed using Precision@10, Recall@10, F1@10
 📊 Results
 
 Precision@10: 0.282
+
 Recall@10: 0.220
+
 F1@10: 0.205
 
 ** Step 2: Item-Based Collaborative Filtering**
@@ -112,7 +114,9 @@ Evaluation performed using Precision@10, Recall@10, F1@10
 **📊 Results**
 
 Precision@10: 0.282
+
 Recall@10: 0.220
+
 F1@10: 0.204
 
 ** Step 3: Item-Based CF + SVD**
@@ -137,7 +141,9 @@ To reduce sparsity effect and capture latent relationships between items.
 **📊 Results**
 
 Precision@10: 0.331
+
 Recall@10: 0.234
+
 F1@10: 0.233
 
 **📈 Performance Comparison**
